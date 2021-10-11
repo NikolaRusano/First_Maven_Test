@@ -26,7 +26,7 @@ public class DemoLists {
 
         System.out.printf("\n");
 
-        firstBookShelf.add(firstBookShelf.size(),book5);
+        firstBookShelf.add(firstBookShelf.size()-1,book5);
         firstBookShelf.forEach(n-> System.out::println);
 
 
